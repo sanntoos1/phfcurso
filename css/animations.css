@@ -1,0 +1,9 @@
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s var(--ease),transform .7s var(--ease)}.reveal.is-visible{opacity:1;transform:none}.reveal-delay{transition-delay:.12s}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.module-row,.button,.gallery-item img{transition:none}}
+
+/* GSAP scroll animations */
+.gsap-ready .reveal{opacity:1;transform:none;transition:none}
+.gsap-word{display:inline-block;will-change:transform,opacity}
+.gsap-line{overflow:hidden;display:inline-block;vertical-align:bottom}
+.gsap-copy{will-change:transform,opacity}
+.gsap-image{will-change:transform,opacity}
+@media(prefers-reduced-motion:reduce){.gsap-word,.gsap-copy,.gsap-image{will-change:auto}}
