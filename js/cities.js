@@ -8,7 +8,7 @@ const COURSES = {
       title: 'Telhados e Estruturas em Aço Galvanizado',
       eyebrow: 'Curso presencial',
       subtitle:
-        'Aprenda o processo na prática — do planejamento e orçamento à montagem e ao acabamento de coberturas em aço galvanizado.',
+        'Do planejamento e orçamento à montagem e ao acabamento de coberturas em aço galvanizado.',
 
       // Próxima turma confirmada
       date: '24/10/2026',
